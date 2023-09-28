@@ -2,8 +2,8 @@ import * as THREE from "three";
 // import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
 // import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
 
-import fragment from "@/assets/shader/fragment.glsl";
-import vertex from "@/assets/shader/vertexParticles.glsl";
+import fragment from "@/assets/shader/fragment.glsl?raw";
+import vertex from "@/assets/shader/vertexParticles.glsl?raw";
 import * as dat from "dat.gui";
 import gsap from "gsap";
 import Particle from "./particle.js";
